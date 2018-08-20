@@ -1,0 +1,151 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+h1 {
+    text-align:center;
+    font-family: "EB Garamond";
+    font-size: 2.75em;
+    color: Tan;
+    background-color: maroon;
+    margin: 0;
+}
+.bg {
+    background-image: url("https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_FireEmblemTheSacredStones_image1600w.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bgb {
+    background-image: url("https://stuffpoint.com/fire-emblem/image/327132-fire-emblem-seth.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bgc {
+    background-image: url("https://vignette.wikia.nocookie.net/fireemblem/images/5/57/Magvel.nc.jpg/revision/latest?cb=20091006192321");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bgd {
+    background-image: url("https://serenesforest.net/wp-content/uploads/2017/08/eirika-ephraim.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bge {
+    background-image: url("https://i.pinimg.com/originals/29/50/33/295033b91d098765a4e3008e8770da00.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+h2, p {
+    color: lightblue;
+    font-size: 1.5em;
+}
+.text-block{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-blockaa{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-blockb{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-blockbb{
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul.nav {
+    width:100%;
+    margin:0;
+    padding:0;
+    list-style:none;
+    background-color: tan;
+    text-align:center;
+    font-family: sans-serif;
+    top: 0; 
+    font-weight: bold;
+       
+    }
+.nav li { 
+    display: inline-block;
+    width:20%;
+    margin:0;
+    padding:0;
+      
+    }
+.nav a {
+    text-align:center;
+    padding: 1.5em;
+    margin:0;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display:block;
+    color: maroon;
+    font-size: .675em;
+    }
+.nav a:hover { 
+    background: grey;
+    border:none;
+    }
+    
+ul.nav li:first-child a{
+    border:none;
+
+    }
+ul.nav li:last-child a {
+    border:none;
+    }
+#container{
+    width: 1350px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    width: 180px;
+    float: left;
+}
+.gallery img{
+    width: 175px;
+    height: 175px;
+}
+.name{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color:darkblue;
+}
+.name a{
+    color:white;
+}
